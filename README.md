@@ -2,6 +2,31 @@
 
 This repo is just a blank C++ project template, featuring some CMake functionalities that eases the development process.
 
+### Usage
+
+- Clone the repo to you machine
+
+```bash
+git clone https://github.com/Tarek-Ragab-Abdelal/CppTemplate
+```
+
+- Build command
+  - Can be done from the tool bar at VS Code using [CMake Tools](#Recommendations)
+
+```bash
+CppTemplate/ $ mkdir build
+CppTemplate/ $ cd ./build
+CppTemplate/build $ cmake ..
+CppTemplate/build $ cmake --build .
+```
+
+- Run your app
+  - Can be done from the tool bar at VS Code using [CMake Tools](#Recommendations)
+
+```bash
+CppTemplate/build $ ./debug/main.exe
+```
+
 ### Project Structure
 
 ```
@@ -33,31 +58,6 @@ This repo is just a blank C++ project template, featuring some CMake functionali
 |
 |--test
 | |- "unit_test.cpp"
-```
-
-### Usage
-
-- Clone the repo to you machine
-
-```bash
-git clone https://github.com/Tarek-Ragab-Abdelal/CppTemplate
-```
-
-- Build command
-  - Can be done from the tool bar at VS Code using [Recommendations](#Recommendations)
-
-```bash
-CppTemplate/ $ mkdir build
-CppTemplate/ $ cd ./build
-CppTemplate/build $ cmake ..
-CppTemplate/build $ cmake --build .
-```
-
-- Run your app
-  - Can be done from the tool bar at VS Code using [Recommendations](#Recommendations)
-
-```bash
-CppTemplate/build $ ./debug/main.exe
 ```
 
 ### Recommendations
