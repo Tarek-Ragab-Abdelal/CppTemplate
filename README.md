@@ -43,7 +43,8 @@ This repo is just a blank C++ project template, featuring some CMake functionali
 git clone https://github.com/Tarek-Ragab-Abdelal/CppTemplate
 ```
 
-- run build command (Can be done from the tool bar at VS Code using [Recommendations](#CMAKE_TOOLS))
+- Build command
+  - Can be done from the tool bar at VS Code using [Recommendations](#rec-id)
 
 ```bash
 CppTemplate/ $ mkdir build
@@ -52,14 +53,14 @@ CppTemplate/build $ cmake ..
 CppTemplate/build $ cmake --build .
 ```
 
-- run your app
-  (Can be done from the tool bar at VS Code using [Recommendations](#CMAKE_TOOLS))
+- Run your app
+  - Can be done from the tool bar at VS Code using [Recommendations](#rec-id)
 
 ```bash
 CppTemplate/build $ ./debug/main.exe
 ```
 
-### Recommendations {#CMAKE_TOOLS}
+### Recommendations {#rec-id}
 
 - Use VS code and install this extension
   - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
