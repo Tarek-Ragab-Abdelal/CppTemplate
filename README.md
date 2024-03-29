@@ -4,7 +4,7 @@ This repo is just a blank C++ project template, featuring some CMake functionali
 
 ### Project Structure
 
-```json
+```
 |- "CMakeLists.txt"
 |
 |--build (You need to build to see this)
