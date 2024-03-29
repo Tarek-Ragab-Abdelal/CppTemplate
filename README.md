@@ -40,19 +40,19 @@ This repo is just a blank C++ project template, featuring some CMake functionali
 - Use VS code and install this extension {#CMAKE_TOOLS}
   - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
     - This will give you access to build and run your application in each of release an debug modes from the bottom bar in VS code.
-      ![Cmake Tools from ToolBar at VS Code](/assets/cmake_toolbar.png)
+      <br>![Cmake Tools from ToolBar at VS Code](/assets/cmake_toolbar.png)
 
 ### Usage
 
 - Clone the repo to you machine
 
-```
+```bash
 git clone https://github.com/Tarek-Ragab-Abdelal/CppTemplate
 ```
 
-- run build command (Can be done from the tool bar at VS Code using [CMake Tools](./#CMAKE_TOOLS))
+- run build command (Can be done from the tool bar at VS Code using [CMake Tools](#CMAKE_TOOLS))
 
-```
+```bash
 CppTemplate/ $ mkdir build
 CppTemplate/ $ cd ./build
 CppTemplate/build $ cmake ..
@@ -60,8 +60,8 @@ CppTemplate/build $ cmake --build .
 ```
 
 - run your app
-  (Can be done from the tool bar at VS Code using [CMake Tools](./#CMAKE_TOOLS))
+  (Can be done from the tool bar at VS Code using [CMake Tools](#CMAKE_TOOLS))
 
-```
+```bash
 CppTemplate/build $ ./debug/main.exe
 ```
