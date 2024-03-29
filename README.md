@@ -44,7 +44,7 @@ git clone https://github.com/Tarek-Ragab-Abdelal/CppTemplate
 ```
 
 - Build command
-  - Can be done from the tool bar at VS Code using [Recommendations](#rec-id)
+  - Can be done from the tool bar at VS Code using [Recommendations](#Recommendations)
 
 ```bash
 CppTemplate/ $ mkdir build
@@ -54,13 +54,13 @@ CppTemplate/build $ cmake --build .
 ```
 
 - Run your app
-  - Can be done from the tool bar at VS Code using [Recommendations](#rec-id)
+  - Can be done from the tool bar at VS Code using [Recommendations](#Recommendations)
 
 ```bash
 CppTemplate/build $ ./debug/main.exe
 ```
 
-### Recommendations {#rec-id}
+### Recommendations
 
 - Use VS code and install this extension
   - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
